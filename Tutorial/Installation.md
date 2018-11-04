@@ -14,7 +14,7 @@ Now run the just downloaded installation file. In the prompt "Installation Optio
 * **Create .bat files for command line use**
 * **Create a \_vimrc if it doesn't exist**
 
-[!Installation Options](./Installation_Windows.PNG)
+![Installation Options](./Installation_Windows.PNG)
 
 # 3 MacOS
 
