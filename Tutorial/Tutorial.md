@@ -10,7 +10,7 @@ This tutorial serves the needs of my ePortfolio-Presentation in the lecture 'Sof
 
 # X. Configuration
 
-#ä X.1 Enter configuration
+## X.1 Enter configuration
 
 In vim, enter command-mode and type "e $MYVIMRC" to edit the configuration file.
 
