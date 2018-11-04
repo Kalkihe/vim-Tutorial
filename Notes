@@ -1,7 +1,0 @@
-Change Colorscheme:
-  - Type :colo and press tab multiple times to try out different color schemes
-  - See https://alvinalexander.com/linux/vi-vim-editor-color-scheme-colorscheme
-
-Windows (Linux?) Edit vimrc:
-  - :e $MYVIMRC
-
