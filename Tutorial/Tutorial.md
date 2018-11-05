@@ -25,8 +25,43 @@ To edit an already existing file when vim is already opened, open the command mo
 
     :e /path/to/already/existing/file.txt
 
+To exit vim, enter command mode using :, then type q and press Enter
 
-# 2. Adding text
+    :q
+
+To exit not saving performed changes, add an !.
+
+    :q!
+
+# 2. Movement
+
+In normal mode, there are several ways to move your cursor in your text. When you start vim, you're in normal mode. You can also get there from insert or command mode pressing ESC.
+
+    h     # move left
+    j     # move down
+    k     # move up
+    l     # mode right
+
+## 2.1 Movement using words
+
+    w     # move to the start of the next word
+    e     # move to the end of the next word
+    b     # move to the beginning of the next word
+
+    \*     # move to the next occurence of the word that's currently under your cursor
+    #     # move to the previous occurenc of the word that's currently under your cursor
+
+## 2.2 Movement in the current line
+
+    0     # move to the beginning of the current line
+    $     # move to the end of the current line
+
+## 2.3 Movement over several lines
+
+    gg    # move to first line
+    G     # move to last line
+    xG    # move to the line with the number = x (give a number instead of x)
+
 
 # 3. Manipulating text
 
