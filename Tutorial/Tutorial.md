@@ -5,17 +5,24 @@ This tutorial serves the needs of my ePortfolio-Presentation in the lecture 'Sof
 # 1. Basics
 
 To start vim, simply type vim into the standard console of your system:
+
     vim
+
 This will open a new file. To edit an already existing file, type the one of the following (depending on your system) into your console:
+
     vim /path/to/file.txt
     vim C:\path\to\file.txt
 
 To save a file, open the command mode using : and then give a simple w. After this, press Enter.
+
     :w
+
 To save a file under a new name, do as above and give a filename before pressing Enter.
+
     :w /path/to/new/file.txt
 
 To edit an already existing file when vim is already opened, open the command mode using :, type e and enter the path to the file. Then press Enter.
+
     :e /path/to/already/existing/file.txt
 
 
